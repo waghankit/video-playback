@@ -1,22 +1,120 @@
-.App {
-  text-align: center;
+/* hiit zone css */
+.hiit-body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
 }
 
-.App-logo {
-  height: 40vmin;
+.video-item{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 100px; */
+    
+}
+.video-grid{
+    /* position: relative; */
+    height: 290px;
+    width: 32.33%;
+    /* object-fit: fill; */
+    /* height: 35%;
+    width: 45%; */
+    /* background-color: lightblue;
+    border: solid 1px black; */
+    background-color: rgb(26, 179, 240);
+    border: solid 1px white;
+    /* padding-top: 10px; */
+    /* overflow: hidden; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.video-grid-blank{
+    width: 93%;
+    height: 20%;
+    /* position: relative; */
+    background-color: #272361;
+    margin-top: 40px;
+    
+}
+.progress-bar{
+    height: 100%;
+    width: 100%;
+    /* margin: auto; */
+    display: flex;
+    /* background-color: black; */
+    margin-top: -10px;
+}
+.workout-timer{
+    height: 220px;
+    width: 220px;
+    margin-left: 80px;
+    background-color: black;
+    border-radius: 50% 
+    
+}
+.workout-zone{
+    height: 220px;
+    width: 220px;
+    margin-left: 300px;
+    overflow-wrap: break-word;
+    background-color: black;
+    border-radius: 50% ; 
+}
+.workout-set{
+    height: 220px;
+    width: 220px;
+    margin-left: 80px;
+    background-color: black;
+    border-radius: 50% 
+}
+.workout-set-timer{
+    height: 220px;
+    width: 220px;
+    margin-left: 80px;
+    background-color: black;
+    border-radius: 50% 
+}
+.hiit-video{
+    /* position: absolute; */
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    margin: auto;
+    /* margin: auto; */
+
 }
 
-.App-link {
-  color: #09d3ac;
+.hiit-exercise-name{
+    text-align: center;
+    margin: 0px;
+    font-weight: bolder;
+    font-size: 32px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 40px;
 }
+
+.displayedTime {
+    background-color: rgb(0, 0, 0);
+    /* position: absolute; */
+  }
+  .session-timer-text-h1{
+      color: white
+  }
+  .set-timer-text-h1{
+      color: white;
+  }
+  .total-duration-timer{
+      position: fixed;
+      top: 500px;
+      left: 720px;
+  }
+  .set-timer{
+      position: absolute;
+      top: 500px;
+      left: 1320px;
+  }
+/* 
+.animated-progressbar{
+font-size: 100px;
+} */
