@@ -31,7 +31,7 @@
     width: 93%;
     height: 20%;
     /* position: relative; */
-    background-color: #494747;
+    background-color: #333232;
     margin-top: 40px;
 }
 .progress-bar{
@@ -149,3 +149,74 @@
 .animated-progressbar{
 font-size: 100px;
 } */
+
+@media screen and (min-width: 1400px) and (max-width: 1599px){
+    .video-grid{
+        /* position: relative; */
+        height: 250px;
+        width: 32.33%;
+        /* object-fit: fill; */
+        /* height: 35%;
+        width: 45%; */
+        /* background-color: lightblue;
+        border: solid 1px black; */
+        background-color: rgb(26, 179, 240);
+        border: solid 1px white;
+        /* padding-top: 10px; */
+        /* overflow: hidden; */
+    }
+    
+    .video-grid-blank{
+        width: 93%;
+        height: 20%;
+        /* position: relative; */
+        background-color: #333232;
+        margin-top: 40px;
+    }
+    .progress-bar{
+        height: 100%;
+        width: 100%;
+        /* margin: auto; */
+        display: flex;
+        /* background-color: white; */
+        margin-top: -10px;
+    }
+    .hiit-video{
+        /* position: absolute; */
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+        margin: auto;
+        /* margin: auto; */
+    
+    }
+    #zone-animated{
+        /* background-color: rgb(212, 142, 50); */
+        width:250px;
+        height: 100%;
+        margin-left: 0px;
+        
+    }
+    #workout-timer-animated{
+        /* background-color: rgb(212, 142, 50); */
+        width:250px;
+        height: 100%;
+        margin-left: 0px;
+    }
+    #station-change-animated{
+        /* background-color: rgb(212, 142, 50); */
+        width:250px;
+        height: 100%;
+        margin-left: 0px;
+    }
+    .station-timer{
+        position: absolute;
+        top: 460px;
+        left: 1030px;
+    }
+    .total-duration-timer{
+        position: absolute;
+        top: 450px;
+        left: 730px;
+    }
+}

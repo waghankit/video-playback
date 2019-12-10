@@ -216,8 +216,26 @@ class App extends React.Component{
        timerValues:[]
    }
 
+// componentDidMount =()=>{
+//     function funcitonOne(time) {
+//         alert(time)
+//     }
+//     function funcitonTwo(time) {
+//         alert(time)
+//     }
+//     var funArr = [funcitonOne, funcitonTwo];
+//     for (var i = 0; i < funArr.length; i++) {
+//         var interval = 500 * (i + 1);
+        
+//         (function (i,interval) {
+//             setInterval(function(){
+//                 funArr[i].call(this, interval);
+//             }, interval);
+//         }(i,interval));
+//     }
+// }
 
-   componentWillMount=()=>{
+componentWillMount=()=>{
     var stationChangeCounter = 0
 
        this.state.sessionTimer = this.state.json.TotalDuration[0]
