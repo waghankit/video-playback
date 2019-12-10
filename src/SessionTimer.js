@@ -31,7 +31,7 @@ class Clock extends React.Component {
     
     componentWillMount=()=> {
        const {  time  } = this.props;
-       console.log('time from timer', time)
+      //  console.log('time from timer', time)
          this.setState({
             count: time,
             running: true

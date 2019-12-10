@@ -4,7 +4,7 @@ import { clearTimeout } from 'timers';
 
 class Clock extends React.Component {
     format(settimer) {
-      console.log('timer from clock class of set timer', settimer)
+      // console.log('timer from clock class of set timer', settimer)
       let seconds = settimer % 60;
       let minutes = Math.floor(settimer / 60);
       minutes = minutes.toString().length === 1 ? "0" + minutes : minutes;
@@ -31,10 +31,10 @@ class Clock extends React.Component {
     }
     
     componentWillReceiveProps= ({ time })=> {
-      console.log('time prop from set timer', time)
+      // console.log('time prop from set timer', time)
        setTimeout(() => {
         this.setState({
-            count: time,
+            count: time ? time : localStorage.getItem('station1-setDuration'),
             running: true
             })
        }, 1000);

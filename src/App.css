@@ -3,7 +3,7 @@
     height: 100vh;
     width: 100vw;
     overflow-x: hidden !important;
-    overflow-y: hidden !important;
+    /* overflow-y: hidden !important; */
 }
 
 .video-item{
@@ -31,34 +31,34 @@
     width: 93%;
     height: 20%;
     /* position: relative; */
-    background-color: #272361;
+    background-color: #494747;
     margin-top: 40px;
-    
 }
 .progress-bar{
     height: 100%;
     width: 100%;
     /* margin: auto; */
     display: flex;
-    /* background-color: black; */
+    /* background-color: white; */
     margin-top: -10px;
 }
 .workout-timer{
     height: 220px;
     width: 220px;
     margin-left: 80px;
-    background-color: black;
-    border-radius: 50% 
-    
+}
+.station-change-timer{
+    height: 220px;
+    width: 220px;
+    margin-left: 80px;  
 }
 .workout-zone{
     height: 220px;
     width: 220px;
     margin-left: 300px;
     overflow-wrap: break-word;
-    background-color: black;
-    border-radius: 50% ; 
 }
+
 .workout-set{
     height: 220px;
     width: 220px;
@@ -66,6 +66,7 @@
     background-color: black;
     border-radius: 50% 
 }
+
 .workout-set-timer{
     height: 220px;
     width: 220px;
@@ -105,15 +106,45 @@
       color: white;
   }
   .total-duration-timer{
-      position: fixed;
-      top: 500px;
-      left: 720px;
+      position: absolute;
+      top: 480px;
+      left: 860px;
   }
+
   .set-timer{
       position: absolute;
       top: 500px;
       left: 1320px;
   }
+  .zone-text{
+      color: white
+  }
+  body{text-align:center;font-family: 'Open Sans', sans-serif;}
+#zone-animated{
+    /* background-color: rgb(212, 142, 50); */
+    width:250px;
+    height: 100%;
+    margin-left: 100px;
+    
+}
+#workout-timer-animated{
+    /* background-color: rgb(212, 142, 50); */
+    width:250px;
+    height: 100%;
+    margin-left: 130px;
+}
+#station-change-animated{
+    /* background-color: rgb(212, 142, 50); */
+    width:250px;
+    height: 100%;
+    margin-left: 150px;
+}
+.station-timer{
+    position: absolute;
+    top: 490px;
+    left: 1180px;
+}
+
 /* 
 .animated-progressbar{
 font-size: 100px;
